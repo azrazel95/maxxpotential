@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+  }
+  
+  #app {
+    position: relative;
+  }
+  
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+    z-index: 2;
+  }
+  
+  .logo {
+    max-width: 100px; /* Adjust the width as needed */
+    height: 5rem; /* Preserve the aspect ratio */
+    margin-right: 10px; /* Add spacing between the logo and text */
+    z-index:0;
+  }
+  
+  .text {
+    text-align: right;
+  }
+  
+  h1.bold {
+    font-weight: bold;
+  }
+  
+  #hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
